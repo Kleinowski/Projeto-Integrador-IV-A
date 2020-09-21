@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"> <!-- Define o tipo de caracteres para usar -->
+    <link rel="stylesheet" href="css/reset.css"> <!-- Define alguns estilos padrões para consistência em diferentes browsers (é possível encontrar esse e outros resets na internet) -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> <!-- Importa o css do swiper para fazer o slider -->
+    <link rel="stylesheet" href="css/main.css"> 
+    <title>BitInfo - Loja de Informática</title>
+</head>
+<body>
+    <!-- Menu de navegação principal -->
+    <nav class="navbar-principal">
+        <!-- Classe para centralizar e definir largura do conteúdo  -->
+        <div class="wrapper">
+            <a href="#" class="logo">BitInfo</a>
+
+            <!-- Barra de pesquisa -->
+            <div class="procura">
+                <input type="search" class="procura-input" placeholder="Procurar produto...">
+                <button class="procura-btn"><i class="fas fa-search"></i></button>
+            </div>
+
+            <!-- Itens do menu -->
+            <ul class="menu">
+                <li><a href="#" class="ativo">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Perguntas Frequentes</a></li>
+                <li><a href="#">Minha Conta <i class="fas fa-user"></i></a></li>
+                <li><a href="#">Carrinho <i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Seção dos slides -->
+    <div class="wrapper">
+        <!-- Classe para colorir fundo do conteúdo -->
+        <div class="container">
+            <!-- Slideshow swiper -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <a href="#" class="swiper-slide slide-01"></a>
+                    <a href="#" class="swiper-slide slide-02"></a>
+                    <a href="#" class="swiper-slide slide-03"></a>
+                </div>
+            <!-- Setas do swiper -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Scripts para icones e o swiper -->
+    <script src="https://kit.fontawesome.com/6dc2c55697.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

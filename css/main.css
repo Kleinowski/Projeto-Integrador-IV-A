@@ -1,0 +1,126 @@
+/* Geral/Utilidade */
+/* Importa fonte do google */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+/* Pra largura total de um elemento contar bordas padding etc */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #fff;
+}
+
+/* Classe para centralizar e definir largura do conteúdo */
+.wrapper {
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+/* Classe para colorir fundo do conteúdo */
+.container {
+    background-color: #eee;
+    width: 100%;
+}
+
+/* Navegação principal */
+.navbar-principal {
+    width: 100%;
+    height: 60px;
+    background-color: #e63946;
+}
+
+/* Logo/nome do site */
+.logo {
+    display: block; 
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 60px;
+    float: left;
+}
+
+/* Barra de pesquisa */
+.procura {
+    display: inline-block;
+    line-height: 60px;
+    position: relative;
+    left: 10%;
+}
+
+.procura-input {
+    padding: 10px;
+    width: 250px;
+    font-family: "Nunito", sans-serif;
+}
+
+.procura-btn {
+    padding: 10px;
+    background-color: #ddd;
+    cursor: pointer;
+    margin-left: -4px;
+    font-family: "Nunito", sans-serif;
+}
+
+.procura-btn:hover {
+    background-color: #ccc;
+}
+
+.procura-input, .procura-btn {
+    outline: none;
+    border: none;
+}
+
+/* Intens da navegação */
+.menu {
+    float: right;
+    list-style: none;
+    line-height: 60px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #f1faee;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.menu li a:hover, .menu li a.ativo {
+    color: #ccc;
+}
+
+/* Estilos para os slides */
+.swiper-container {
+    width: 100%;
+    height: 70vh;
+  }
+
+.swiper-slide {
+    height: 70vh;
+    width: 100%;
+}
+
+/* Imagens dos slides */
+.slide-01 {
+    background: url("../img/slide-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-02 {
+    background: url("../img/slide-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.slide-03 {
+    background: url("../img/slide-3.webp");
+    background-position: center;
+    background-size: cover;
+}
