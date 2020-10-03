@@ -23,10 +23,10 @@
             <!-- Itens do menu -->
             <ul class="menu">
                 <li><a href="#" class="ativo">Início</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Perguntas Frequentes</a></li>
-                <li><a href="#">Minha Conta <i class="fas fa-user"></i></a></li>
-                <li><a href="#">Carrinho <i class="fas fa-shopping-cart"></i></a></li>
+                <li><a href="pagina.html">Sobre</a></li>
+                <li><a href="pagina.html">Perguntas Frequentes</a></li>
+                <li><a href="pagina.html">Minha Conta <i class="fas fa-user"></i></a></li>
+                <li><a href="pagina.html" id="carrinho">Carrinho (0) <i class="fas fa-shopping-cart"></i></a></li>
             </ul>
         </div>
     </nav>
@@ -39,14 +39,168 @@
             <div class="swiper-container">
                 <div class="swiper-wrapper">
                     <!-- Slides -->
-                    <a href="#" class="swiper-slide slide-01"></a>
-                    <a href="#" class="swiper-slide slide-02"></a>
-                    <a href="#" class="swiper-slide slide-03"></a>
+                    <a href="pagina.html" class="swiper-slide slide-01" target="_blank"></a>
+                    <a href="pagina.html" class="swiper-slide slide-02" target="_blank"></a>
+                    <a href="pagina.html" class="swiper-slide slide-03" target="_blank"></a>
                 </div>
             <!-- Setas do swiper -->
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-        </div>
+            </div>
+
+            <!-- Produtos -->
+            <h1 id="produtos-h1">Produtos</h1>
+            <hr>
+
+            <!-- Seção para os produtos -->
+            <section class="produtos-container">
+                <!-- Elemento article representa um card de produto -->
+                <article class="produto-card">
+                    <!-- Header do card do produto com links (imagem e titulo) -->
+                    <div class="produto-header">
+                        <a href="pagina.html" target="_blank">
+                            <img src="img/produtos/ryzen-5.webp" alt="Ryzen 5 3600" class="produto-img">
+                        </a>
+                        <a href="pagina.html" class="produto-titulo" target="_blank">Processador AMD Ryzen 5 3600 - Cache 32MB - 3.6GHz (4.2GHz Max Turbo) - AM4...</a>
+                    </div>
+                    <!-- Body do card com preços e botão de compra de produto -->
+                    <div class="produto-body">
+                        <p class="produto-preco-vista">R$ 1300,00 À VISTA</p>
+                        <span class="ou-span">OU ATÉ</span>
+                        <p class="produto-preco-prazo">12X DE R$ 125,00</p>
+                        <a href="#" class="produto-btn"><i class="fas fa-shopping-cart"></i> Comprar </a>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <div class="produto-header">
+                        <a href="pagina.html" target="_blank">
+                            <img src="img/produtos/placa-mae.jpg" alt="Placa-mãe Gigabyte GA-AX370-Gaming" class="produto-img">
+                        </a>
+                        <a href="pagina.html" class="produto-titulo" target="_blank">Placa-Mãe Gigabyte GA-AX370-Gaming - AMD AM4 - ATX - DDR4...</a>
+                    </div>
+                    <div class="produto-body">
+                        <p class="produto-preco-vista">R$ 670,00 À VISTA</p>
+                        <span class="ou-span">OU ATÉ</span>
+                        <p class="produto-preco-prazo">12X DE R$ 65,00</p>
+                        <a href="#" class="produto-btn"><i class="fas fa-shopping-cart"></i> Comprar </a>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <div class="produto-header">
+                        <a href="pagina.html" target="_blank">
+                            <img src="img/produtos/ram.jpg" alt="Memória RAM Corsair LPX Vengeance 8GB" class="produto-img">
+                        </a>
+                        <a href="pagina.html" class="produto-titulo" target="_blank">Memória Corsair Vengeance LPX - 8GB - 2400MHz - DDR4 - CL16 - Preto...</a>
+                    </div>
+                    <div class="produto-body">
+                        <p class="produto-preco-vista">R$ 320,50 À VISTA</p>
+                        <span class="ou-span">OU ATÉ</span>
+                        <p class="produto-preco-prazo">12X DE R$ 65,00</p>
+                        <a href="#" class="produto-btn"><i class="fas fa-shopping-cart"></i> Comprar </a>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <div class="produto-header">
+                        <a href="pagina.html" target="_blank">
+                            <img src="img/produtos/processador-intel.jpg" alt="Processador Intel Core i5-10400" class="produto-img">
+                        </a>
+                        <a href="pagina.html" class="produto-titulo" target="_blank">Processador Intel Core i5-10400 - Cache 12MB - 2.9GHz (4.3GHz Max Turbo) - LGA 1200...</a>
+                    </div>
+                    <div class="produto-body">
+                        <p class="produto-preco-vista">R$ 1299,90 À VISTA</p>
+                        <span class="ou-span">OU ATÉ</span>
+                        <p class="produto-preco-prazo">12X DE R$ 127,50</p>
+                        <a href="#" class="produto-btn"><i class="fas fa-shopping-cart"></i> Comprar </a>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <div class="produto-header">
+                        <a href="pagina.html" target="_blank">
+                            <img src="img/produtos/placa-video.jpg" alt="Placa de Vídeo Gigabyte GTX 1660 Super OC" class="produto-img">
+                        </a>
+                        <a href="pagina.html" class="produto-titulo" target="_blank">Placa de Vídeo Gigabyte GTX 1660 Super OC - NVIDIA Geforce 6GB - GDDR6...</a>
+                    </div>
+                    <div class="produto-body">
+                        <p class="produto-preco-vista">R$ 1999,90 À VISTA</p>
+                        <span class="ou-span">OU ATÉ</span>
+                        <p class="produto-preco-prazo">12X DE R$ 195,83</p>
+                        <a href="#" class="produto-btn"><i class="fas fa-shopping-cart"></i> Comprar </a>
+                    </div>
+                </article>
+
+                <article class="produto-card">
+                    <div class="produto-header">
+                        <a href="pagina.html" target="_blank">
+                            <img src="img/produtos/mouse.jpg" alt="Mouse Sem Fio Gamer Logitech G603 Hero" class="produto-img">
+                        </a>
+                        <a href="pagina.html" class="produto-titulo" target="_blank">Mouse Sem Fio Gamer Logitech G603 Hero Lightspeed - Bluetooth - 6 Botões - 12000 DPI...</a>
+                    </div>
+                    <div class="produto-body">
+                        <p class="produto-preco-vista">R$ 381,90 À VISTA</p>
+                        <span class="ou-span">OU ATÉ</span>
+                        <p class="produto-preco-prazo">12X DE R$ 37,50</p>
+                        <a href="#" class="produto-btn"><i class="fas fa-shopping-cart"></i> Comprar </a>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Rodapé principal com informações do site -->
+            <footer id="rodape-container">
+                <!-- Lista com produtos mais procurados no dia -->
+                <div class="rodape-item">
+                    <h2>Produtos mais Procurados Hoje</h2>
+                    <ul id="rodape-produtos-lista">
+                        <li>
+                            <a href="pagina.html" target="_blank">Ryzen 5 3600</a>
+                        </li>
+                        <li>
+                            <a href="pagina.html" target="_blank">Monitor 144hz</a>
+                        </li>
+                        <li>
+                            <a href="pagina.html" target="_blank">GTX 1660</a>
+                        </li>
+                        <li>
+                            <a href="pagina.html" target="_blank">Mouse sem fio</a>
+                        </li>
+                        <li>
+                            <a href="pagina.html" target="_blank">Gabinete</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Tags usadas para achar o site -->
+                <div class="rodape-item">
+                    <h2>Tags</h2>
+                    <p>loja, computador, informática, processador, mouse, gamer, monitor, hardware, periférico, virtual, cpu, cooler, placa de video, nvidia, amd, intel, promoção, blackfriday, gigabyte, placa-mãe, ram, hd, armazenamento</p>
+                </div>
+
+                <!-- Sobre a empresa -->
+                <div class="rodape-item">
+                    <h2>Sobre nós</h2>
+                    <p>A BitInfo é uma loja virtual fundada em Outubro de 2020 com o objetivo de oferecer os melhores produtos e preços da área da informática. Focamos em qualidade e agilidade na entrega e também no atendimento ao consumidor.</p>
+                </div>
+
+                <!-- Contato com a empresa -->
+                <div class="rodape-item">
+                    <h2>Contato</h2>
+                    <p>Caso esteja com dúvidas ou esteja precisando de suporte em algum compra, por favor, entre em contato conosco. Seu Feedback também é bem-vindo!</p>
+                    <br>
+                    <a href="mailto:contato@bitinfo.com.br" class="rodape-contato"><i class="fas fa-envelope"></i> contato@bitinfo.com.br</a>
+                    <a href="pagina.html" class="rodape-contato" target="_blank"><i class="fas fa-phone-alt"></i> (00) 9999-9999</a>
+                </div>
+
+                <!-- Direitos autorais e redes sociais -->
+                <div id="rodape-direitos">
+                    <p>BitInfo &copy; 2020</p>
+                    <a href="pagina.html" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                    <a href="pagina.html" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a href="pagina.html" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                </div>
+            </footer>
         </div>
     </div>
 

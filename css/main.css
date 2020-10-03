@@ -9,7 +9,7 @@
 
 body {
     font-family: "Nunito", sans-serif;
-    background-color: #fff;
+    background-color: #eee;
 }
 
 /* Classe para centralizar e definir largura do conteúdo */
@@ -20,8 +20,9 @@ body {
 
 /* Classe para colorir fundo do conteúdo */
 .container {
-    background-color: #eee;
     width: 100%;
+    box-shadow: 0 0 10px #ccc;
+    background-color: #ffff;
 }
 
 /* Navegação principal */
@@ -124,3 +125,151 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+/* Seção dos produtos */
+/* H1 Produtos */
+#produtos-h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    margin: 12px 0;
+    color: #e63946;
+    text-align: center;
+}
+
+/* Linha horizontal */
+hr {
+    border: 1px solid #e63946;
+    width: 30%; 
+}
+
+/* Container para os produtos. Alinhados utilizando Flexbox */
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Todos os estilos de um "card" de produto */
+.produto-card {
+    max-width: 350px;
+    box-shadow: 0 0 4px #bababa;
+    text-align: center;
+    margin: 15px;
+}
+
+.produto-card:hover {
+    transform: scale(1.02);
+}
+
+.produto-header a {
+    display: block;
+}
+
+.produto-img {
+    width: 80%;
+}
+
+.produto-titulo {
+    text-decoration: none;
+    color: #444;
+    font-weight: 600;
+    line-height: 1.2;
+    padding: 0 10px;
+    height: 60px;   
+}
+
+.produto-titulo:hover {
+    color: #000;
+}
+
+.produto-body {
+    padding: 10px;
+}
+
+.ou-span {
+    line-height: 2;
+    display: block;
+    font-size: 14px;
+}
+
+.produto-preco-prazo {
+    font-size: 14px;
+}
+
+.produto-btn {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 15px;
+    background-color: #444;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    padding-right: 8px;
+}
+
+.produto-btn:hover {
+    background: #e63946;
+    color: #fff;
+}
+
+.produto-btn i {
+    background-color: #e63946;
+    padding: 15px 18px;
+}
+
+/* Rodapé principal com informações do site */
+/* Alinhamento utilizando flexbox novamente */
+#rodape-container {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* Utiliza-se flex-basis para deixar a largura desse div 100% e ficar numa linha */
+#rodape-direitos {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    font-size: 18px;
+    padding: 10px;
+}
+
+#rodape-direitos a {
+    margin-left: 15px;
+    color: #fff;
+}
+
+#rodape-direitos i {
+    font-size: 28px;
+}
+
+.rodape-item a, .rodape-item p {
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: 100;
+    font-size: 16px;
+    display: block;
+}
+
+.rodape-item {
+    width: 20%;
+    margin: 15px;
+}
+
+.rodape-item > h2 {
+    color: #e63946;
+    font-weight: 400;
+    line-height: 2;
+    font-size: 18px;
+}
+
+.rodape-contato i {
+    color: #fff;
+}
+
