@@ -232,7 +232,7 @@ hr {
 #rodape-direitos {
     flex-basis: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     background-color: #222;
     font-size: 18px;
@@ -240,12 +240,12 @@ hr {
 }
 
 #rodape-direitos a {
-    margin-left: 15px;
+    margin-left: 10px;
     color: #fff;
 }
 
 #rodape-direitos i {
-    font-size: 28px;
+    font-size: 32px;
 }
 
 .rodape-item a, .rodape-item p {
